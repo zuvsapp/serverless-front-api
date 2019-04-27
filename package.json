@@ -1,0 +1,22 @@
+{
+  "name": "serverless-front-api",
+  "version": "1.0.0",
+  "description": "Serverless front api",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuvsapp/serverless-front-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuvsapp/serverless-front-api/issues"
+  },
+  "homepage": "https://github.com/zuvsapp/serverless-front-api#readme",
+  "dependencies": {
+    "serverless": "^1.41.1"
+  }
+}

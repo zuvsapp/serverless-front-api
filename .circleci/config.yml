@@ -8,4 +8,5 @@ jobs:
       - run:
           command: |
             npm install
+            pwd
             serverless deploy -v

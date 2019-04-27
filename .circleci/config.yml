@@ -6,7 +6,6 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - run: 
-          name: Deploy
-            command: |
-              npm install serverless bash -c '
-              serverless deploy -v '
+        command: |
+          npm install serverless
+          serverless deploy -v

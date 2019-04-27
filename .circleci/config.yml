@@ -6,7 +6,9 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - run:
+          name: Install Serverless CLI and dependencies
           command: |
-            npm install
-            pwd
-            serverless deploy -v
+            sudo npm i -g serverless
+      - run:
+          name: Deploy application
+          command: sls deploy -v

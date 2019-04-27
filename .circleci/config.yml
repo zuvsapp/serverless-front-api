@@ -1,0 +1,8 @@
+version: 2
+jobs:
+  deploy:
+    docker: # use the docker executor type; machine and macos executors are also supported
+      - image: node:8.16.0-alpine # the primary container, where your job's commands are run
+    steps:
+      - checkout # check out the code in the project directory
+      - run: npm install serverless  # run the `echo` command
